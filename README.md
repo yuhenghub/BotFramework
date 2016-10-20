@@ -1,7 +1,7 @@
 # BotFramework 
 Microsoft Bot Framework  资料汇总
 
-msdn 开发视频: https://channel9.msdn.com/Series/For-China-Developers/Conversation20161017A02 
+MSDN 开发视频: https://channel9.msdn.com/Series/For-China-Developers/Conversation20161017A02 
 
 Bot SDK & 示例代码：https://github.com/Microsoft/BotBuilder.git 
 
