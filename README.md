@@ -25,3 +25,5 @@ https://www.azure.cn/cognitive-services/zh-cn/language-understanding-intelligent
 https://www.azure.cn/cognitive-services/zh-cn/linguistic-analysis-api 
 
 
+与微信连接:
+http://www.cnblogs.com/sonic1abc/p/5941442.html
