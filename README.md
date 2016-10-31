@@ -29,3 +29,6 @@ https://www.azure.cn/cognitive-services/zh-cn/linguistic-analysis-api
 
 与微信连接:
 http://www.cnblogs.com/sonic1abc/p/5941442.html
+
+示例代码：
+https://github.com/leonlj/BotDemo 
