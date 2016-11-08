@@ -8,6 +8,9 @@ Bot SDK & 示例代码：https://github.com/Microsoft/BotBuilder.git
 开发者入口：
 https://dev.botframework.com/   
 
+HOL动手实验（英文版）:
+https://docs.botframework.com/en-us/csharp/builder/sdkreference/gettingstarted.html 
+
 详细的开发文档和介绍：
 http://docs.botframework.com/ 
 
