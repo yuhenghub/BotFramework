@@ -36,4 +36,4 @@ http://www.cnblogs.com/sonic1abc/p/5941442.html
 示例代码：
 https://github.com/leonlj/BotDemo 
 
-民警提示，别忘了点上面的星星。
+民警提示，别忘了点上面的星星 ★star
