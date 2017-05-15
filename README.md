@@ -1,4 +1,4 @@
-# BotFramework 
+# BotFramework & LUIS #
 Microsoft Bot Framework  资料汇总
 
 MSDN 开发视频: https://channel9.msdn.com/Series/For-China-Developers/Conversation20161017A01
