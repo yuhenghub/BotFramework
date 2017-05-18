@@ -1,3 +1,4 @@
+
 # BotFramework & LUIS #
 Microsoft Bot Framework  资料汇总
 
@@ -34,6 +35,9 @@ http://www.cnblogs.com/MS-Yuheng/p/6856523.html
 
 与微信连接:
 http://www.cnblogs.com/sonic1abc/p/5941442.html
+
+添加PowerBI Embedded 到bot的Card Mode 里面
+http://www.cnblogs.com/sonic1abc/p/6602530.html 
 
 示例代码：
 https://github.com/leonlj/BotDemo 
