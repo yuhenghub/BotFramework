@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7421A8D-6149-402A-82F8-F6D7728CEED1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Deepleo.Weixin.SDK</RootNamespace>
+    <AssemblyName>Deepleo.Weixin.SDK</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcceptMessageAPI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdvanceMassReplayMessageAPI.cs" />
+    <Compile Include="BasicAPI.cs" />
+    <Compile Include="Card\CreateCardAPI.cs" />
+    <Compile Include="Card\ManageCardAPI.cs" />
+    <Compile Include="Card\SendCardAPI.cs" />
+    <Compile Include="Card\Special\AirTickectAPI.cs" />
+    <Compile Include="Card\Special\MeetingTicketAPI.cs" />
+    <Compile Include="Card\Special\LuckyMoneyAPI.cs" />
+    <Compile Include="Card\Special\MovieTickectAPI.cs" />
+    <Compile Include="Card\Special\MemberCardAPI.cs" />
+    <Compile Include="Card\TestWhiteAPI.cs" />
+    <Compile Include="Card\UseCardAPI.cs" />
+    <Compile Include="Cryptography\Cryptography.cs" />
+    <Compile Include="Cryptography\Sample.cs" />
+    <Compile Include="Cryptography\WXBizMsgCrypt.cs" />
+    <Compile Include="Helpers\DateTimeExtension.cs" />
+    <Compile Include="Helpers\Util.cs" />
+    <Compile Include="InterfaceStatisticsAPI.cs" />
+    <Compile Include="JSSDK\JSAPI.cs" />
+    <Compile Include="Merchant\CommonAPI.cs" />
+    <Compile Include="Merchant\ExpressAPI.cs" />
+    <Compile Include="Merchant\GroupAPI.cs" />
+    <Compile Include="Merchant\OrderAPI.cs" />
+    <Compile Include="Merchant\ProductAPI.cs" />
+    <Compile Include="Merchant\ShelfAPI.cs" />
+    <Compile Include="Merchant\StockAPI.cs" />
+    <Compile Include="MessageStatisticsAPI.cs" />
+    <Compile Include="NewsStatisticsAPI.cs" />
+    <Compile Include="OAuth2API.cs" />
+    <Compile Include="Pay\WxBizPayAPI.cs" />
+    <Compile Include="Pay\PayUtil.cs" />
+    <Compile Include="Pay\WxMicroPayAPI.cs" />
+    <Compile Include="Pay\WxPayAPI.cs" />
+    <Compile Include="ServiceAdminAPI.cs" />
+    <Compile Include="CustomMenuAPI.cs" />
+    <Compile Include="Entities\WeixinArtcle.cs" />
+    <Compile Include="Entities\WeixinNews.cs" />
+    <Compile Include="Helpers\DynamicJson.cs" />
+    <Compile Include="Helpers\DynamicXml.cs" />
+    <Compile Include="Entities\WeixinMessage.cs" />
+    <Compile Include="MutliServiceAPI.cs" />
+    <Compile Include="ReplayActiveMessageAPI.cs" />
+    <Compile Include="ReplayPassiveMessageAPI.cs" />
+    <Compile Include="Helpers\TokenHelper.cs" />
+    <Compile Include="Interface\IWeixinExecutor.cs" />
+    <Compile Include="PromotionAPI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartAPI.cs" />
+    <Compile Include="UserStatisticsAPI.cs" />
+    <Compile Include="TemplateMessageAPI.cs" />
+    <Compile Include="UserAdminAPI.cs" />
+    <Compile Include="MaterialAPI.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cryptography\Readme.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
