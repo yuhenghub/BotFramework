@@ -3,6 +3,8 @@
 
 MSDN 开发视频: https://channel9.msdn.com/Series/For-China-Developers/Conversation20161017A01
 
+Microsoft AI MOOC: https://mva.microsoft.com/colleges/MicrosoftAI 
+
 Bot SDK：https://github.com/Microsoft/BotBuilder.git 
 
 示例代码：
